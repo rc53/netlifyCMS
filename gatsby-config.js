@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Shooting Gallery`,
+    author: `Chad Christopher`,
+    description: `People, Places, and Things`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `https://twitter.com/rc53esq`,
+      instagram: `https://www.instagram.com/momenttarry/`,
+      facebook: `https://www.facebook.com/thercsnaps/`,
+      px500: ``,
     },
   },
   plugins: [
@@ -64,7 +67,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,

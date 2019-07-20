@@ -54,11 +54,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Photos by <strong>{author}</strong>, a westcoast-based photographer who shoots the world in front of him. You should follow him on 
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        <a href={`${social.instagram}`} target="__blank">
+          Instagram
         </a>
       </p>
     </div>
